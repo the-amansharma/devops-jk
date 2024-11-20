@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Pull the latest code from the repository
-                checkout scm
+                git branch:'main', url:'https://github.com/the-amansharma/devops-jk'
             }
         }
         stage('Build') {
