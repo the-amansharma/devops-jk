@@ -1,0 +1,1 @@
+print("Akatsuki wa sudota")
